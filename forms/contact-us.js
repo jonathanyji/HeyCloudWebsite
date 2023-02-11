@@ -1,11 +1,11 @@
 function sendEmail() {
-    console.log("SEND EMAIL BUTTON")
+    console.log("SEND EMAIL BUTTON 2")
     Email.send({
         Host : "smtp.elasticemail.com",
-        Username : "jonathanyji98@hotmail.com",
-        Password : "732819FFAB592D96FE2D7B3103A91CA4B6FE",
-        To : 'iamjonny98@gmail.com',
-        From : "jonathanyji98@hotmail.com",
+        Username : "iamjonny98@gmail.com",
+        Password : "clzuwcsdhybjvfml",
+        To : 'jonathanyji98@hotmail.com',
+        From : "iamjonny98@gmail.com",
         Subject : "Test email",
         Body : "<html><h2>Header</h2><strong>Bold text</strong><br></br><em>Italic</em></html>"
     }).then(
