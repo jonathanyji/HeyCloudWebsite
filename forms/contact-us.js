@@ -1,11 +1,7 @@
 function sendEmail() {
-    console.log("SEND EMAIL BUTTON 2")
+    console.log("SEND EMAIL BUTTON 3")
     Email.send({
-        Host : "smtp.gmail.com",
-        Username : "iamjonny98@gmail.com",
-        Password : "18GPG1N7N6RR3bMiaDEneMzWPXKFBECqxq",
-        Domain: "gmail.com",
-        Port: 25,
+        SecureToken : "18GPG1N7N6RR3bMiaDEneMzWPXKFBECqxq",
         To : 'jonathanyji98@hotmail.com',
         From : "iamjonny98@gmail.com",
         Subject : "Test email",
