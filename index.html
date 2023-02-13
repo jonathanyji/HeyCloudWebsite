@@ -196,7 +196,7 @@
           </div>
 
           <div class="col-lg-7 mt-5 mt-lg-0 d-flex align-items-stretch">
-            <form action="" role="form" class="php-email-form" onsubmit="sendEmailFrom()">
+            <form action="" role="form" class="php-email-form" onsubmit="return false">
               <div class="row">
                 <div class="form-group col-md-6">
                   <label >Your Name</label>
@@ -215,7 +215,7 @@
                 <label >Message</label>
                 <textarea class="form-control"  rows="10" required id="message"></textarea>
               </div>
-              <div class="text-center"><button type="submit">Send Message</button></div>
+              <div class="text-center"><button type="submit" onclick="sendEmailFrom()">Send Message</button></div>
             </form>
           </div>
 
